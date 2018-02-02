@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { environment } from '../environments/environment';
-import appRoutes from './router.module';
+import { appRoutes } from './router.module';
 
 import { AppComponent } from './app.component';
 import { IndexComponent } from './components/index/index.component';
