@@ -2,7 +2,7 @@ import { Routes } from '@angular/router';
 import { CreateComponent } from './components/create/create.component';
 import { IndexComponent } from './components/index/index.component';
 
-const appRoutes: Routes = [
+export const appRoutes: Routes = [
   { path: 'create',
     component: CreateComponent
   },
@@ -10,4 +10,3 @@ const appRoutes: Routes = [
     component: IndexComponent
   }
 ];
-export default appRoutes;
